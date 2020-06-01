@@ -1,0 +1,50 @@
+  html, body {
+    overflow: hidden; /* don't do scrollbars */
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-size: 14px;
+  }
+  .fc-header-toolbar {
+    /*
+    the calendar will be butting up against the edges,
+    but let's scoot in the header's buttons
+    */
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  .btn-info {
+    background-color: #2C3E51;
+    border-color: #2C3E51;
+  }
+
+  .btn:hover{
+    background-color: #1A252F;
+    border-color: #1A252F;
+  }
+
+  .clearfix {
+    margin: 15px;
+  }
+
+  .title {
+    text-align: center;
+    margin: 10px;
+  }
+
+  .form {
+    margin: auto;
+  }
+
+  .form input, .form select, .form textarea {
+    border-radius: 5px;
+    border: 1px solid #1A252F;
+    outline: none;
+    background: none;
+    padding: 5px;
+    width: 100%;
+  }
+  .Calendar {
+  width: 98%;
+  margin: auto;
+  font-size: 13px;
+}
